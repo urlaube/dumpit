@@ -1,5 +1,5 @@
 # Dumpit theme
-The Dumpit theme is a debugging theme for [Urlaub.be](https://github.com/urlaube/urlaube). It just dumps relevant information via `var_dump()` to the output.
+The Dumpit theme is a debugging theme for [Urlaube](https://github.com/urlaube/urlaube). It just dumps relevant information via `var_dump()` to the output.
 
 ## Installation
 Place the folder containing the theme into your themes directory located at `./user/themes/`.
