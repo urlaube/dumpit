@@ -6,7 +6,7 @@
     This theme just dumps the received content.
 
     @package urlaube\dumpit
-    @version 0.1a0
+    @version 0.1a1
     @author  Yahe <hello@yahe.sh>
     @since   0.1a0
   */
@@ -17,7 +17,7 @@
   if (!defined("URLAUBE")) { die(""); }
 
   if (!class_exists("Dumpit")) {
-    class Dumpit implements Theme {
+    class Dumpit extends Base implements Theme {
 
       public static function theme() {
         print("METHOD: ");
